@@ -135,18 +135,18 @@ body {
     /* opacity: 0; */
     transform: translateY(20px);
     cursor: pointer;
-    /* animation: fadeUp 0.8s ease forwards; */
-    transition: all 0.3s ease-in-out;
+    animation: fadeUp 0.8s ease forwards;
+/*     transition: all 0.3s ease-in-out; */
 }
 
 .tech-item:hover, .tech-item-js:hover, .tech-item-ts:hover, .tech-item-css:hover, .tech-item-react:hover, .service-item:hover, .service-item-firebase:hover, .service-item-figma:hover {
     transform: translateY(5px);
-    margin-top: -75px;
+    /*margin-top: -75px;
     margin-left: -40px;
-    margin-right: -40px;
+    margin-right: -40px;*/
     /* transform: scale(140%); */
     background: rgba(255, 255, 255, 0.08);
-    animation: pulse 2s infinite;
+/*     animation: pulse 2s infinite; */
     animation: fadeUp 0.8s forwards;
     
 }
